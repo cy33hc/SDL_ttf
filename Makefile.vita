@@ -7,7 +7,7 @@ PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
 AR      = $(PREFIX)-gcc-ar
 
-CFLAGS  = -Wl,-q -Wall -O2 -D__PSP2__ \
+CFLAGS  = -Wl,-q -Wall -O2 \
 	-Wno-unused-but-set-variable \
 	-I$(VITASDK)/arm-vita-eabi/include/SDL \
 	-I$(VITASDK)/arm-vita-eabi/include/freetype2
